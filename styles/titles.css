@@ -1,0 +1,10 @@
+.project-description .project-title,
+.contact .contact-title {
+  background-color:var(--purple);
+  color: white;
+  font: var(--headline5);
+  align-self: flex-start;
+  padding-inline: 8px;
+  padding-block: 4px;
+  box-shadow: -4px 4px 0px #FFFFFF;
+}

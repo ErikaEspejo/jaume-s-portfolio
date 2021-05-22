@@ -15,16 +15,6 @@
   margin: 0;
 }
 
-.project-description .project-title {
-  background-color:var(--purple);
-  color: white;
-  font: var(--headline5);
-  align-self: flex-start;
-  padding-inline: 8px;
-  padding-block: 4px;
-  box-shadow: -4px 4px 0px #FFFFFF;
-}
-
 .project-description .button.secondary {
   margin-block-start: 8px;
 }
