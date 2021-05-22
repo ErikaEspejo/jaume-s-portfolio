@@ -1,7 +1,7 @@
 .comment {
   text-align: center;
-
-  padding-block: 40px;
+  padding-block-start: 40px;
+  padding-block-end: 80px;
 }
 
 .comment p {

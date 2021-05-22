@@ -4,6 +4,8 @@
 @import './button-icon.css';
 @import './hero.css';
 @import './main.css';
+@import './testimony.css';
+@import './project.css';
 
 :root {
   --fontBase : 'Poppins', sans-serif;
