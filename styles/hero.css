@@ -1,0 +1,35 @@
+.hero,
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-description a.button.primary{
+  text-align: center;
+}
+.hero-description h1,
+.hero-description p {
+  margin: 0;
+}
+
+.hero-img {
+  text-align: center;
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-description span {
+  display: block;
+}
+
+.hero-description-name {
+  font: var(--headline3);
+}
+
+.social {
+  padding-block-end: 24px;
+}
