@@ -33,5 +33,7 @@ body {
   font: var(--body1);
   color: var(--purple);
   margin: 0;
+  display:flex;
+  flex-direction: column;
 }
 

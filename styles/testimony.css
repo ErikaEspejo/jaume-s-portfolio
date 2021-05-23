@@ -13,6 +13,7 @@
 
 .testimony img {
   align-self: center;
+  width: 64px
 }
 
 .testimony p {
@@ -24,4 +25,37 @@
 }
 .testimony-user {
   font: var(--caption);
+}
+
+@media screen and (min-width: 768px) {
+  .testimony {
+    align-items: center;
+    padding: 40px
+  }
+
+  .testimony p {
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .testimony img {
+    width: 80px
+  }
+
+  .testimony {
+    padding: 80px;
+    margin-block: 80px;
+  }
+
+  .testimony .testimony-comment {
+    font: var(--headline4);
+  }
+
+  .testimony-user {
+    font: var(--headline5);
+    opacity: 50%;
+  }
+
 }

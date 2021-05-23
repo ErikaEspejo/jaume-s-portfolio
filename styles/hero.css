@@ -1,3 +1,7 @@
+.hero {
+  padding-block-start: 16px;
+}
+
 .hero,
 .hero-description {
   display: flex;
@@ -15,11 +19,7 @@
 
 .hero-img {
   text-align: center;
-}
-
-.hero-img img {
-  width: 100%;
-  height: auto;
+  width:  328px;
 }
 
 .hero-description span {
@@ -32,4 +32,44 @@
 
 .social {
   padding-block-end: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero{
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero-img {
+    flex: 1;
+    text-align: right
+  }
+
+  .hero-img img {
+    min-width: 330px;
+    width: 80%;
+    max-width: 500px;
+  }
+
+  .hero-description {
+    order: -1;
+  }
+
+  .hero-description a.button.primary{
+    align-self: flex-start;
+  }
+
+  .social .button-icon:nth {
+    display: none;
+  }
+  .hero-description p {
+    max-width: 410px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .hero{
+    padding-block-end: 80px;
+  }
 }
