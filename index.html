@@ -4,17 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
-  <title>Document</title>
+  <title>Jaume's Portfolio</title>
 </head>
 <body>
   <div class="wrapper">
     <header class="header">
-      <img src="./images/LOGO.png" alt="logo" width="70" height="20">
+      <img src="./images/LOGO.png" alt="logo de jaume" width="70" height="20">
       <nav>
         <ul>
           <li>
@@ -32,7 +33,7 @@
     </header>
     <section class="hero" id="hero">
       <div class="hero-img">
-        <img src="./images/user.png" alt="">
+        <img src="./images/user.png" alt="foto de jaume, es un chico joven, tiene una camisa naranja">
       </div>
       <div class="hero-description">
         <h1>
@@ -41,10 +42,10 @@
         </h1>
         <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
         <div class="social">
-          <a class="button-icon" href="tel:3186931408"><img src="./icons/icon-phone.svg" alt=""></a>
-          <a class="button-icon" href="mailto:erikaespejo95@gmail.com" ><img src="./icons/icon-important_mail.svg" alt=""></a>
-          <a class="button-icon" href="https://www.instagram.com/erikaespto/?hl=es-la" target="_blank"><img src="./icons/icon-instagram.svg" alt=""></a>
-          <a class="button-icon" href="https://twitter.com/Erika__Espejo" target="_blank"><img src="./icons/icon-twitter_squared.svg" alt=""></a>
+          <a class="button-icon" href="tel:3186931408"><img src="./icons/icon-phone.svg" alt="icono de telefono"></a>
+          <a class="button-icon" href="mailto:erikaespejo95@gmail.com" ><img src="./icons/icon-important_mail.svg" alt="icono de correo electronico"></a>
+          <a class="button-icon" href="https://www.instagram.com/erikaespto/?hl=es-la" target="_blank"><img src="./icons/icon-instagram.svg" alt="icono de instagram"></a>
+          <a class="button-icon" href="https://twitter.com/Erika__Espejo" target="_blank"><img src="./icons/icon-twitter_squared.svg" alt="icono de twitter"></a>
         </div>
         <a href="#" class="button primary"> DESCARGAR CURRÍCULUM</a>
       </div>
@@ -61,13 +62,13 @@
             Aquí hay algunos que me gustaría compartir.
           </span>
         </p>
-        <img src="./icons/arrow-down.svg" width="80" height="80" alt="">
+        <img src="./icons/arrow-down.svg" width="80" height="80" alt="flecha hacia abajo">
       </div>
       <div class="projects">
         <article class="leonidas">
           <div class="project">
             <div class="project-tumbnail">
-              <img src="./images/leonidasesteban.png" alt="">
+              <img src="./images/leonidasesteban.png" alt="imagen de un computador y un celular donde se muestra el proyecto de leonidasesteban.com">
             </div>
             <div class="project-description">
               <h3 class="project-title">leonidasesteban.com</h3>
@@ -82,7 +83,7 @@
             </div>
           </div>
           <div class="testimony">
-            <img src="./images/leonidas.png" width="64px" alt="">
+            <img src="./images/leonidas.png" width="64px" alt="foto de leonidas esteban">
             <p class="testimony-comment">
               "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos
               de desarrollo. Lo que nos hubiera llevado 6 meses solo les
@@ -96,7 +97,7 @@
         <article class="marvol">
           <div class="project">
             <div class="project-tumbnail">
-              <img src="./images/marvol.png" alt="">
+              <img src="./images/marvol.png" alt="imagen de una tablet donde se muestra el proyecto de marvol">
             </div>
             <div class="project-description">
               <h3 class="project-title">MARVOL</h3>
@@ -112,7 +113,7 @@
             </div>
           </div>
           <div class="testimony">
-            <img src="./images/jason.png" width="64px" alt="">
+            <img src="./images/jason.png" width="64px" alt="foto de jason lopez">
             <p class="testimony-comment">
               "Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".
             </p>
@@ -124,7 +125,7 @@
         <article class="netnet">
           <div class="project">
             <div class="project-tumbnail">
-              <img src="./images/netnet.png" alt="">
+              <img src="./images/netnet.png" alt="imagen de un celular donde se muestra el proyecto de netnet">
             </div>
             <div class="project-description">
               <h3 class="project-title">NETNET</h3>
@@ -139,7 +140,7 @@
             </div>
           </div>
           <div class="testimony">
-            <img src="./images/marco.png" alt="">
+            <img src="./images/marco.png" alt="foto de marco cortez">
             <p class="testimony-comment">
               "Por primera vez en la historia de nuestra empresa, aparecimos en
                todas las plataformas en las que trabajamos".
@@ -158,33 +159,34 @@
            no dude en ponerse en contacto conmigo.
         </p>
         <div class="required">
-          <label for="">Nombre completo</label>
-          <input class='input' required type="text" placeholder="Juan">
+          <label for="name">Nombre completo</label>
+          <input id="name" class='input' required type="text" placeholder="Juan">
         </div>
         <div class="required">
-          <label for="">Correo electrónico</label>
-          <input class='input' required type="email" placeholder="juan@gmail.com">
+          <label for="email">Correo electrónico</label>
+          <input id='email' class='input' required type="email" placeholder="juan@gmail.com">
         </div>
         <div>
-          <label for="">Mensaje</label>
-          <textarea></textarea>
+          <label for="message">Mensaje</label>
+          <textarea id='message'></textarea>
         </div>
         <input type="submit" class="button primary" value="ENVIAR MENSAJE">
       </form>
     </section>
     <footer class="footer">
-      <img src="./images/LOGO-WHITE.png" alt="" class="logo">
+      <img src="./images/LOGO-WHITE.png" alt="logo de jaume" class="logo">
       <div class="social">
-        <a class="button-icon" href="tel:3186931408"><img src="./icons/icon-phone.svg" alt=""></a>
-        <a class="button-icon" href="mailto:erikaespejo95@gmail.com"><img src="./icons/icon-important_mail.svg" alt=""></a>
+        <a class="button-icon" href="tel:3186931408"><img src="./icons/icon-phone.svg" alt="icono de telefono"></a>
+        <a class="button-icon" href="mailto:erikaespejo95@gmail.com"><img src="./icons/icon-important_mail.svg"
+            alt="icono de correo electronico"></a>
         <a class="button-icon" href="https://www.instagram.com/erikaespto/?hl=es-la" target="_blank"><img
-            src="./icons/icon-instagram.svg" alt=""></a>
+            src="./icons/icon-instagram.svg" alt="icono de instagram"></a>
         <a class="button-icon" href="https://twitter.com/Erika__Espejo" target="_blank"><img
-            src="./icons/icon-twitter_squared.svg" alt=""></a>
+            src="./icons/icon-twitter_squared.svg" alt="icono de twitter"></a>
       </div>
       <p class="caption">
         <span>Hecho con </span>
-        <img src="./images/icon-heart_outline.png" alt="">
+        <img src="./images/icon-heart_outline.png" alt="icono de un corazón">
         <span> de Jaume.</span>
       </p>
       <p>Copyright 2021 - Todos los derechos reservados.</p>
