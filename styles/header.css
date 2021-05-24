@@ -1,13 +1,19 @@
-.header {
+.header .wrapper {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  block-size: 80px;
+  width: 328px;
+}
+
+.header {
+  z-index: 999;
+  display: flex;
+  justify-content: center;
   position: sticky;
   top: 0;
   backdrop-filter: blur(10px);
-  block-size: 80px;
-  width: 100%;
-  z-index: 999;
 }
 
 .header nav {
@@ -20,6 +26,11 @@
 
 
 @media screen and (min-width: 768px) {
+  .header .wrapper {
+    width: 90%;
+    max-width: 1132px;
+  }
+
   .header nav {
     display: inline-block;
   }
